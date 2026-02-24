@@ -303,6 +303,9 @@ header nav {
 .about-image img {
     border-radius: 20px;
     box-shadow: var(--shadow);
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .about-text h2 {
@@ -435,10 +438,9 @@ footer {
 }
 
 .footer-logo-img {
-    height: 50px;
+    height: 60px;
     margin-bottom: 20px;
-    filter: brightness(0) invert(1);
-    opacity: 0.9;
+    display: block;
 }
 
 .footer-brand p {
